@@ -713,17 +713,7 @@ end # UnZipFiles(vHsh)
  
   
  def ShowHash(vHsh)
-  #puts'++++++++++++++++++++++++++++++++++++++'
-  #puts'++++++++++++++++++++++++++++++++++++++'
- # puts "fFileName #{vHsh["fFileName"]}"
- # puts "fDgs #{vHsh["fDgs"]}"
- # puts "fPpqId #{vHsh["fPpqId"]}"
- # puts "tDgs #{vHsh["tDgs"]}"
- # puts "tPpqId #{vHsh["tPpqId"]}" 
- # puts "tVersion #{vHsh["tVersion"]}"
- # puts "fNewVersionFileName #{vHsh["fNewVersionFileName"]}"
-  #puts'++++++++++++++++++++++++++++++++++++++++++'
-    
+      
     $LOG.debug("++++++++++++++++++++++++++++++++++++++")
     $LOG.debug("fFileName #{vHsh["fFileName"]}") 
     $LOG.debug("fNewVersionFileName #{vHsh["fNewVersionFileName"]}")     
